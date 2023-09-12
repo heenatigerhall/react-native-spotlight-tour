@@ -4,11 +4,9 @@
   "repository": "git@github.com:stackbuilders/react-native-spotlight-tour.git",
   "author": "Stack Builders <info@stackbuilders.com> (https://github.com/stackbuilders)",
   "license": "MIT",
-  "packageManager": "yarn@3.4.1",
-  "workspaces": [
-    "example/",
-    "package/"
-  ],
+  "packageManager": "npm@8.5.5",
+  "main": "package/dist/index.js",
+  "module": "package/dist/index.js",
   "scripts": {
     "android": "yarn workspace example android",
     "build": "turbo build",
